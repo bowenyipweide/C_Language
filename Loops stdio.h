@@ -6,14 +6,14 @@ while (true)
   
 }
 
-#If the boolean-expr evaluates to true, all lines of code between the curly braces will execute repeatedly, in order from top-to-bottom, until boolean-expr evaluates to false
+#If the boolean-expr evaluates to true, all lines of code between the curly braces will execute repeatedly, in order from top-to-bottom, until boolean-expr evaluates to false.
 while (boolean-expr)
 {
   
 }
 
 
-#This loop will execute all lines of code between the curly braces once, and then if the boolean-expr evaluates to true, will go back and repeat that process until boolean-expr evaluates to false
+#This loop will execute all lines of code between the curly braces once, and then if the boolean-expr evaluates to true, will go back and repeat that process until boolean-expr evaluates to false.
 do 
 {
   
