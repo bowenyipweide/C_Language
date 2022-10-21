@@ -1,4 +1,0 @@
-<stdio.h> 
-
-#Why call it a black box? 
-if we aren't writing the function ourselves, we don't need to know the underlying implementation.
