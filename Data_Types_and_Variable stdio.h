@@ -80,3 +80,13 @@ void triple(void)
 {
   global *= 3;
 }
+
+#Arrays
+arrays used to hold values of the same type at contigous memory location 
+  #array declarations 
+    type name [size];
+    int student_grades[40]
+    double menu_prices[8]
+the type is what kind of variable each element of teh array will be
+  the name is what you want to call your array.
+    the size is how many elements you would like your arry to contain.
