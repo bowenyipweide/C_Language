@@ -53,3 +53,30 @@ letter = 'H'; //assignment
 int number = 17; //initialization 
 char letter = 'H'; // initiallization 
 
+
+#Scope is a characteristic of a variable that defines from which functions that variable may be assessed. 
+  #Local Variable - can only be accessed within the functions in which they are created.
+
+int main(void) 
+{
+  int result = triple(5);
+} 
+
+int triple(intx)
+{
+  return x *3;
+}
+  #Global variables can be accessed by any functions in the program.
+#include <stdio.h>
+float global = 0.5050;
+
+int main(void)
+{
+  triple();
+  printf("%f\n", global);
+} 
+
+void triple(void)
+{
+  global *= 3;
+}
